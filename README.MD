@@ -20,45 +20,49 @@
 # Projeto EBOOK Gerado por I.A.s
 
 
- > ℹ️ **NOTE:** Este é o repositório desenvolvido durante o curso no qual fui instrutor técnico na plataforma da [DIO](https://dio.me)
+ > ℹ️ **NOTE:** Este é o repositório desenvolvido durante o curso [Formação ChatGPT for Devs](https://web.dio.me/track/formacao-chatgpt-devs) na plataforma da [DIO](https://dio.me).
 
 Projeto com o objetivo de gerar um ebook digital com as facilidades das ferramentas de IA. todos os prompts
 seguem abaixo.
 
-<a href="https://github.com/felipeAguiarCode/prompts-recipe-to-create-a-ebook/blob/main/output/ebook%20-%20css%20jedi%20output.pdf" title="View PDF now"> 📕Clique aqui para ler</a>
+<a href="https://github.com/rsl/prompts-recipe-to-create-a-ebook/blob/main/output/kotlin-coroutines-guia-pratico.pdf" title="View PDF now"> 📕Clique aqui para ler</a>
 
 ## 💻 Tecnologias utilizadas no projeto
 
-- [ChatGPT](https://chat.openai.com/) 
-- [MidJourney](https://www.midjourney.com/app/)
-- [PowerPoint](https://www.microsoft.com/en/microsoft-365/powerpoint)
+- [Claude](https://claude.ai/) - para título e conteúdo
 
 ## 🧠 Prompts
 
 
-ChatGPT：
+Claude：
 
 |   Ação   | prompt                                                                                                                                                                                                                                                                         |
 | :------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|  título  | Crie um título de um ebook sobre o tema de css, o ebookk é do nicho de programação e o subnicho é de css, o título deve ser épico e curto, e tenha uma temática de star wars no título, me liste 5 variações de títulos                                                        |
-| conteúdo | Faça um texto para ebook , com foco em CSS, listando os principais seletores CSS com exemplos em código {REGRAS} Explique sempre de uma maneira simples Deixe o texto enxuto, Sempre traga exemplos de código em contextos reais , sempre deixe um título sugestivo por tópico |
-
-
-Midjourney：
-
-|  Ação  | prompt                                                                                 |
-| :----: | -------------------------------------------------------------------------------------- |
-| título | A jedi in meditation pose, with your blue lightsaber floating, pixel art style --v 5.1 |
+| conteúdo | Preciso criar um ebook em português baseado neste exemplo "https://github.com/felipeAguiarCode/prompts-recipe-to-create-a-ebook/blob/main/output/ebook%20-%20css%20jedi%20output.pdf". O tema do nosso ebook será Desenvolvimento Android - Uso de Coroutines, suspend functions e dispatchers. Leia o arquivo do link para entender a estrutura e formato. Gere o conteúdo para a nossa versão do ebook com nosso tema, pense na diagramação e imagens necessárias, incluindo capa, diagramas e ilustrações, pense em exemplos de código para demonstrar os conceitos. O ebook deve ser direto, mas deve er escrito de modo a programadores iniciantes e intermediários consigam entender, não deve ter muitas páginas, não é um TCC. É um ebook mais no estilo cheat sheet, passando a informação necessária para uso. |
 
 ## ✨ Features
 
-- Conteúdo gerado via ChatGPT
-- Imagens geradas via MidJourney
+- Conteúdo gerado via Claude
 
 ## 📚 Materiais
 
 - Imagens utilizadas em `assets`
 - ebook gerado durante as aulas em `output`
+
+## 📖 Conteúdo do Ebook
+
+| # | Capítulo |
+|:-:| -------- |
+| 01 | O Problema: Por que Coroutines? |
+| 02 | Conceitos Fundamentais |
+| 03 | `suspend fun` — A Magia Acontece Aqui |
+| 04 | CoroutineScope e Builders |
+| 05 | Dispatchers — Onde o Código Roda |
+| 06 | Job, Cancelamento e Ciclo de Vida |
+| 07 | `async` / `await` — Paralelismo Real |
+| 08 | Coroutines no Android: ViewModel & Lifecycle |
+| 09 | Tratamento de Erros |
+| 10 | Cheat Sheet Rápido |
 
 ## 🛠️ Instruções de execução
 
@@ -71,22 +75,17 @@ Utilize os prompts acima nas ferramentas sugeridas para gerar o material base e 
       align=left 
       margin=10 
       width=80 
-      src="https://avatars.githubusercontent.com/u/37452836?v=4"
+      src="https://avatars.githubusercontent.com/u/5752022?v=4"
     />
-    <p>&nbsp&nbsp&nbspFelipe Aguiar<br>
+    <p>&nbsp&nbsp&nbspRobson Lima<br>
     &nbsp&nbsp&nbsp
-    <a href="https://github.com/felipeAguiarCode">
+    <a href="https://github.com/rsl50">
     GitHub</a>&nbsp;|&nbsp;
-    <a href="www.linkedin.com/in/
-felipe-exe">LinkedIn</a>
-&nbsp;|&nbsp;
-    <a href="https://www.instagram.com/felipeaguiar.exe/">
-    Instagram</a>
-&nbsp;|&nbsp;</p>
+    <a href="https://www.linkedin.com/in/robsonslima">LinkedIn</a>
 </p>
 <br/><br/>
 <p>
 
 ---
 
-⌨️ com 💜 por [Felipe Aguiar](https://github.com/felipeAguiarCode)
+⌨️ com 💜 por [Robson Lima](https://github.com/rsl50)
